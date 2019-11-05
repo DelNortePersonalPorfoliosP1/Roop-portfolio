@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		23AA39932372328A0002B9DC /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA39922372328A0002B9DC /* Calculator.storyboard */; };
+		23AA3995237237DB0002B9DC /* Pythagorean.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA3994237237DB0002B9DC /* Pythagorean.storyboard */; };
+		23AA399923723B190002B9DC /* HistogramLab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA399823723B190002B9DC /* HistogramLab.storyboard */; };
 		23B1FD0D2370E7D00013441C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FD0C2370E7D00013441C /* AppDelegate.m */; };
 		23B1FD102370E7D00013441C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FD0F2370E7D00013441C /* SceneDelegate.m */; };
 		23B1FD132370E7D00013441C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FD122370E7D00013441C /* ViewController.m */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		23AA39922372328A0002B9DC /* Calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
+		23AA3994237237DB0002B9DC /* Pythagorean.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagorean.storyboard; sourceTree = "<group>"; };
+		23AA399823723B190002B9DC /* HistogramLab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HistogramLab.storyboard; sourceTree = "<group>"; };
 		23B1FD082370E7D00013441C /* UIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B1FD0B2370E7D00013441C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23B1FD0C2370E7D00013441C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				23B1FD192370E7D00013441C /* LaunchScreen.storyboard */,
 				23B1FD142370E7D00013441C /* Main.storyboard */,
 				23AA39922372328A0002B9DC /* Calculator.storyboard */,
+				23AA3994237237DB0002B9DC /* Pythagorean.storyboard */,
+				23AA399823723B190002B9DC /* HistogramLab.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,8 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23B1FD1B2370E7D00013441C /* LaunchScreen.storyboard in Resources */,
+				23AA399923723B190002B9DC /* HistogramLab.storyboard in Resources */,
 				23B1FD182370E7D00013441C /* Assets.xcassets in Resources */,
 				23AA39932372328A0002B9DC /* Calculator.storyboard in Resources */,
+				23AA3995237237DB0002B9DC /* Pythagorean.storyboard in Resources */,
 				23B1FD162370E7D00013441C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

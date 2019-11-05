@@ -14,7 +14,45 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLY-5b-EY5">
+                                <rect key="frame" x="50" y="108" width="137" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Calculator">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LNi-BI-Ee5" kind="show" id="a3F-oD-W7n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ka-v4-Qjs">
+                                <rect key="frame" x="237" y="108" width="137" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Pythagorean">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dp1-kN-cbX" kind="show" id="Jg3-F8-2fq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZ2-Ew-IrF">
+                                <rect key="frame" x="50" y="234" width="137" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Histogram">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tSx-A0-9qm" kind="show" id="N1m-bG-12h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="8Mu-zx-XIO"/>
@@ -44,10 +82,32 @@
         <!--Calculator-->
         <scene sceneID="Ggp-Ad-U2e">
             <objects>
-                <viewControllerPlaceholder storyboardName="Calculator" referencedIdentifier="Calculator" id="LNi-BI-Ee5" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Calculator" referencedIdentifier="Calculator" id="LNi-BI-Ee5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="0xf-rh-3TI"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QFP-eE-t9p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="582" y="-164"/>
+            <point key="canvasLocation" x="1586" y="-134"/>
+        </scene>
+        <!--Pythagorean-->
+        <scene sceneID="X5h-hL-k24">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Pythagorean" referencedIdentifier="Pythagorean" id="Dp1-kN-cbX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="itP-fg-rTN"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g0E-mU-YsZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1596" y="-98"/>
+        </scene>
+        <!--HistogramLab-->
+        <scene sceneID="lDH-jx-h9E">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HistogramLab" referencedIdentifier="HistogramLab" id="tSx-A0-9qm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ggI-po-i9R"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kLD-am-zEH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1586" y="-65"/>
         </scene>
     </scenes>
 </document>
