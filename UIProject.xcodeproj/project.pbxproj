@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234427BF2374CC3400F527EA /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234427BE2374CC3400F527EA /* CalcController.m */; };
 		23AA39932372328A0002B9DC /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA39922372328A0002B9DC /* Calculator.storyboard */; };
 		23AA3995237237DB0002B9DC /* Pythagorean.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA3994237237DB0002B9DC /* Pythagorean.storyboard */; };
 		23AA399923723B190002B9DC /* HistogramLab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA399823723B190002B9DC /* HistogramLab.storyboard */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		234427BD2374CC3400F527EA /* CalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcController.h; sourceTree = "<group>"; };
+		234427BE2374CC3400F527EA /* CalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcController.m; sourceTree = "<group>"; };
 		23AA39922372328A0002B9DC /* Calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
 		23AA3994237237DB0002B9DC /* Pythagorean.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagorean.storyboard; sourceTree = "<group>"; };
 		23AA399823723B190002B9DC /* HistogramLab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HistogramLab.storyboard; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 		23B1FD242370E7D90013441C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				234427BD2374CC3400F527EA /* CalcController.h */,
+				234427BE2374CC3400F527EA /* CalcController.m */,
 				23B1FD112370E7D00013441C /* ViewController.h */,
 				23B1FD122370E7D00013441C /* ViewController.m */,
 			);
@@ -186,6 +191,7 @@
 				23B1FD0D2370E7D00013441C /* AppDelegate.m in Sources */,
 				23B1FD1E2370E7D00013441C /* main.m in Sources */,
 				23B1FD102370E7D00013441C /* SceneDelegate.m in Sources */,
+				234427BF2374CC3400F527EA /* CalcController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7262X84F6C;
 				INFOPLIST_FILE = UIProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,6 +352,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7262X84F6C;
 				INFOPLIST_FILE = UIProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
