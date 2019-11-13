@@ -106,6 +106,12 @@
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="9LA-ey-9Hl"/>
                     </view>
+                    <connections>
+                        <outlet property="sideA" destination="0Mi-JE-Q1x" id="mqv-79-1Z6"/>
+                        <outlet property="sideB" destination="ZMe-Fn-wzb" id="pe4-QD-Y5J"/>
+                        <outlet property="sideC" destination="abX-XW-c6u" id="XGi-KH-U7Y"/>
+                        <outlet property="sideD" destination="RSo-wz-QEF" id="QpK-Py-G6B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mVl-bX-FLP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
