@@ -24,7 +24,6 @@
     double sideAcalc = (sideA.text.doubleValue + sideB.text.doubleValue)*2;
     [sideC setText:[NSString stringWithFormat:@"%lf", sideAcalc]];
     
-    - (IBAction)calculate2:(id)sender {
     double sideBcalc = sideA.text.doubleValue * sideB.text.doubleValue;
     [sideC setText:[NSString stringWithFormat:@"%lf", sideBcalc]];
 }

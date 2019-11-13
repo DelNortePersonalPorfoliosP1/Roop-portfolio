@@ -6,8 +6,13 @@
 //  Copyright © 2019 Vij, Jagroop. All rights reserved.
 //
 
-#ifndef Rectangle_h
-#define Rectangle_h
+#import <UIKit/UIKit.h>
 
+@interface Rectangle : UIViewController
 
-#endif /* Rectangle_h */
+@property (weak, nonatomic) IBOutlet UITextField *sideA;
+@property (weak, nonatomic) IBOutlet UITextField *sideB;
+@property (strong, nonatomic) IBOutlet UILabel *sideC;
+@property (strong, nonatomic) IBOutlet UILabel *sideD;
+
+@end

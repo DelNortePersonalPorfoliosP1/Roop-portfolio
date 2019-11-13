@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		234427BF2374CC3400F527EA /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234427BE2374CC3400F527EA /* CalcController.m */; };
 		234964B9237CAD390085AFB3 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 234964B8237CAD390085AFB3 /* calc.c */; };
-		234964BC237CB5AB0085AFB3 /* Hist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234964BB237CB5AB0085AFB3 /* Hist.storyboard */; };
 		234964BE237CB7C70085AFB3 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 234964BD237CB7C70085AFB3 /* Rectangle.m */; };
 		234964C1237CBB0A0085AFB3 /* Rectangle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234964C0237CBB0A0085AFB3 /* Rectangle.storyboard */; };
-		238DCF40237B6F6D0017B640 /* HistoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238DCF3F237B6F6D0017B640 /* HistoController.m */; };
 		238DCF43237B703B0017B640 /* PythController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238DCF42237B703B0017B640 /* PythController.m */; };
 		23AA39932372328A0002B9DC /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA39922372328A0002B9DC /* Calculator.storyboard */; };
 		23AA3995237237DB0002B9DC /* Pythagorean.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA3994237237DB0002B9DC /* Pythagorean.storyboard */; };
@@ -30,11 +28,8 @@
 		234427BE2374CC3400F527EA /* CalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcController.m; sourceTree = "<group>"; };
 		234964B8237CAD390085AFB3 /* calc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = calc.c; sourceTree = "<group>"; };
 		234964BA237CAEE10085AFB3 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
-		234964BB237CB5AB0085AFB3 /* Hist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hist.storyboard; sourceTree = "<group>"; };
 		234964BD237CB7C70085AFB3 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 		234964C0237CBB0A0085AFB3 /* Rectangle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rectangle.storyboard; sourceTree = "<group>"; };
-		238DCF3F237B6F6D0017B640 /* HistoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoController.m; sourceTree = "<group>"; };
-		238DCF41237B6F8E0017B640 /* HistoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoController.h; sourceTree = "<group>"; };
 		238DCF42237B703B0017B640 /* PythController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythController.m; sourceTree = "<group>"; };
 		238DCF44237B705B0017B640 /* PythController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythController.h; sourceTree = "<group>"; };
 		238DCF59237B71FE0017B640 /* histogram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = histogram.c; sourceTree = "<group>"; };
@@ -115,8 +110,6 @@
 				234427BE2374CC3400F527EA /* CalcController.m */,
 				23B1FD112370E7D00013441C /* ViewController.h */,
 				23B1FD122370E7D00013441C /* ViewController.m */,
-				238DCF41237B6F8E0017B640 /* HistoController.h */,
-				238DCF3F237B6F6D0017B640 /* HistoController.m */,
 				238DCF44237B705B0017B640 /* PythController.h */,
 				238DCF42237B703B0017B640 /* PythController.m */,
 				234964BD237CB7C70085AFB3 /* Rectangle.m */,
@@ -132,7 +125,6 @@
 				23B1FD142370E7D00013441C /* Main.storyboard */,
 				23AA39922372328A0002B9DC /* Calculator.storyboard */,
 				23AA3994237237DB0002B9DC /* Pythagorean.storyboard */,
-				234964BB237CB5AB0085AFB3 /* Hist.storyboard */,
 				234964C0237CBB0A0085AFB3 /* Rectangle.storyboard */,
 			);
 			path = Views;
@@ -210,7 +202,6 @@
 				23B1FD182370E7D00013441C /* Assets.xcassets in Resources */,
 				23AA39932372328A0002B9DC /* Calculator.storyboard in Resources */,
 				23AA3995237237DB0002B9DC /* Pythagorean.storyboard in Resources */,
-				234964BC237CB5AB0085AFB3 /* Hist.storyboard in Resources */,
 				234964C1237CBB0A0085AFB3 /* Rectangle.storyboard in Resources */,
 				23B1FD162370E7D00013441C /* Main.storyboard in Resources */,
 			);
@@ -230,7 +221,6 @@
 				23B1FD1E2370E7D00013441C /* main.m in Sources */,
 				23B1FD102370E7D00013441C /* SceneDelegate.m in Sources */,
 				234427BF2374CC3400F527EA /* CalcController.m in Sources */,
-				238DCF40237B6F6D0017B640 /* HistoController.m in Sources */,
 				238DCF43237B703B0017B640 /* PythController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
