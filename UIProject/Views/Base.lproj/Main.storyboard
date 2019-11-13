@@ -22,24 +22,6 @@
                                 <color key="textColor" red="0.27710449910000001" green="0.88573157130000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohP-ma-6h8">
-                                <rect key="frame" x="46" y="279" width="137" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.27710449910000001" green="0.88573157130000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Histogram">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="kAi-Vh-SeM" kind="show" id="YV1-0g-nH2"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="al6-Gq-JOe">
                                 <rect key="frame" x="46" y="180" width="137" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,7 +59,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryz-eM-VxT">
-                                <rect key="frame" x="231" y="279" width="137" height="56"/>
+                                <rect key="frame" x="46" y="279" width="137" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.27710449910000001" green="0.88573157130000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -153,16 +135,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g0E-mU-YsZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1841" y="123"/>
-        </scene>
-        <!--hist-->
-        <scene sceneID="3rM-F3-huU">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Hist" referencedIdentifier="hist" id="kAi-Vh-SeM" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="4Jx-XY-Fcp"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZFX-zr-Nyv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1841" y="158"/>
         </scene>
     </scenes>
 </document>
