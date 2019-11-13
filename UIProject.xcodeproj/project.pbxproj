@@ -32,7 +32,6 @@
 		234964BA237CAEE10085AFB3 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
 		234964BB237CB5AB0085AFB3 /* Hist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hist.storyboard; sourceTree = "<group>"; };
 		234964BD237CB7C70085AFB3 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
-		234964BF237CB7DD0085AFB3 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 		234964C0237CBB0A0085AFB3 /* Rectangle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rectangle.storyboard; sourceTree = "<group>"; };
 		238DCF3F237B6F6D0017B640 /* HistoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoController.m; sourceTree = "<group>"; };
 		238DCF41237B6F8E0017B640 /* HistoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoController.h; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		23B1FD1A2370E7D00013441C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23B1FD1C2370E7D00013441C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23B1FD1D2370E7D00013441C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23C0EF0D237CBEEA0093DBA4 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 				238DCF44237B705B0017B640 /* PythController.h */,
 				238DCF42237B703B0017B640 /* PythController.m */,
 				234964BD237CB7C70085AFB3 /* Rectangle.m */,
-				234964BF237CB7DD0085AFB3 /* Rectangle.h */,
+				23C0EF0D237CBEEA0093DBA4 /* Rectangle.h */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
