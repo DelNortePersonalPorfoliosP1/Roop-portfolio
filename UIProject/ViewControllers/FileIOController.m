@@ -23,7 +23,7 @@
 -(void)loadTableData  // method to perform calculation
 {
     // static file name
-    char *fn="/Users/johnmortensen/Downloads/p1-jm1021/portfolio/fileparse.c";
+    char *fn="/Users/johnmortensen/Downloads/p1-jm1021/portfolio/fileParse.c";
     CANDIDATE_FUNCS *functions = fileParse(fn);
     
     // Convert struct to array

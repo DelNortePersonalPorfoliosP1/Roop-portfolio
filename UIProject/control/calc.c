@@ -49,10 +49,11 @@ double calculateIt(double arg1, int mathOp, double arg2)
 }
 
 // hyptoneuse engine
-double hypotenuse (double side1, double side2) {
+double BigSide (double side1, double side2) {
     side1 *= side1;
     side2 *= side2;
     double buffer = side1 + side2;
     double side3 = sqrt(buffer);
     return side3;
 }
+

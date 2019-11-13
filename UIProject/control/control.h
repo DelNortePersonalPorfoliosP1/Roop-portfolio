@@ -21,7 +21,7 @@
 #define MODULO 4
 #define SQRT 5
 
-// C Function Name and Line number
+// C Function Namehypotenusenumber
 typedef struct candidatesFuncs {
     char name[LINE_BUFFER_SIZE];
     unsigned int functionStartLine;
@@ -31,7 +31,8 @@ CANDIDATE_FUNCS* fileParse(char *fn);
 // Programming Languages Data Definition
 typedef enum {JIT, JVM, ByteCode, Native} EXE_TYPE;
 typedef enum {OOP, MP, Iterative} LANG_TYPE;
-typedef struct language {
+typedef struct language
+{
     char name[20];
     char yob[10];
     char creator[80];
@@ -46,6 +47,6 @@ int jumpers(char *message);
 int histogram(char *message);
 int zeroTest(double value);
 double calculateIt(double arg1, int mathOp, double arg2);
-double hypotenuse (double side1, double side2);
+double BigSide(double side1, double side2);
 
 #endif /* portfolio_h */
