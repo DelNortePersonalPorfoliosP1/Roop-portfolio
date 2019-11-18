@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2321BB8D237DDBA1004FAE71 /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2321BB8B237DDBA1004FAE71 /* CalcController.m */; };
 		234964B9237CAD390085AFB3 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 234964B8237CAD390085AFB3 /* calc.c */; };
 		234964BE237CB7C70085AFB3 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 234964BD237CB7C70085AFB3 /* Rectangle.m */; };
 		234964C1237CBB0A0085AFB3 /* Rectangle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234964C0237CBB0A0085AFB3 /* Rectangle.storyboard */; };
@@ -21,11 +20,10 @@
 		23B1FD182370E7D00013441C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B1FD172370E7D00013441C /* Assets.xcassets */; };
 		23B1FD1B2370E7D00013441C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B1FD192370E7D00013441C /* LaunchScreen.storyboard */; };
 		23B1FD1E2370E7D00013441C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FD1D2370E7D00013441C /* main.m */; };
+		23D1A9372382FB6A00D0C4FA /* CalcController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1A9362382FB6A00D0C4FA /* CalcController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2321BB8B237DDBA1004FAE71 /* CalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalcController.m; path = ../../../UIProject/UIProject/ViewControllers/CalcController.m; sourceTree = "<group>"; };
-		2321BB8C237DDBA1004FAE71 /* CalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalcController.h; path = ../../../UIProject/UIProject/ViewControllers/CalcController.h; sourceTree = "<group>"; };
 		234964B8237CAD390085AFB3 /* calc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = calc.c; sourceTree = "<group>"; };
 		234964BA237CAEE10085AFB3 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
 		234964BD237CB7C70085AFB3 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		23B1FD1C2370E7D00013441C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23B1FD1D2370E7D00013441C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23C0EF0D237CBEEA0093DBA4 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		23D1A9352382FB1600D0C4FA /* CalcController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcController2.h; sourceTree = "<group>"; };
+		23D1A9362382FB6A00D0C4FA /* CalcController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 			children = (
 				23B1FD112370E7D00013441C /* ViewController.h */,
 				23B1FD122370E7D00013441C /* ViewController.m */,
-				2321BB8C237DDBA1004FAE71 /* CalcController.h */,
-				2321BB8B237DDBA1004FAE71 /* CalcController.m */,
+				23D1A9352382FB1600D0C4FA /* CalcController2.h */,
+				23D1A9362382FB6A00D0C4FA /* CalcController2.m */,
 				238DCF44237B705B0017B640 /* PythController.h */,
 				238DCF42237B703B0017B640 /* PythController.m */,
 				234964BD237CB7C70085AFB3 /* Rectangle.m */,
@@ -215,8 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				234964B9237CAD390085AFB3 /* calc.c in Sources */,
+				23D1A9372382FB6A00D0C4FA /* CalcController2.m in Sources */,
 				23B1FD132370E7D00013441C /* ViewController.m in Sources */,
-				2321BB8D237DDBA1004FAE71 /* CalcController.m in Sources */,
 				234964BE237CB7C70085AFB3 /* Rectangle.m in Sources */,
 				23B1FD0D2370E7D00013441C /* AppDelegate.m in Sources */,
 				23B1FD1E2370E7D00013441C /* main.m in Sources */,
