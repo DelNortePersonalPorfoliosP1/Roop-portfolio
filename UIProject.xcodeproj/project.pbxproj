@@ -11,6 +11,8 @@
 		234964BE237CB7C70085AFB3 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 234964BD237CB7C70085AFB3 /* Rectangle.m */; };
 		234964C1237CBB0A0085AFB3 /* Rectangle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234964C0237CBB0A0085AFB3 /* Rectangle.storyboard */; };
 		238DCF43237B703B0017B640 /* PythController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238DCF42237B703B0017B640 /* PythController.m */; };
+		23A5C9972395771200453DA2 /* Reverse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A5C9962395771200453DA2 /* Reverse.storyboard */; };
+		23A5C99A2395790B00453DA2 /* ReverseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A5C9992395790B00453DA2 /* ReverseController.m */; };
 		23AA39932372328A0002B9DC /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA39922372328A0002B9DC /* Calculator.storyboard */; };
 		23AA3995237237DB0002B9DC /* Pythagorean.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA3994237237DB0002B9DC /* Pythagorean.storyboard */; };
 		23B1FD0D2370E7D00013441C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B1FD0C2370E7D00013441C /* AppDelegate.m */; };
@@ -32,6 +34,9 @@
 		238DCF44237B705B0017B640 /* PythController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythController.h; sourceTree = "<group>"; };
 		238DCF59237B71FE0017B640 /* histogram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = histogram.c; sourceTree = "<group>"; };
 		238DCF5A237B721C0017B640 /* jumpers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jumpers.c; sourceTree = "<group>"; };
+		23A5C9962395771200453DA2 /* Reverse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reverse.storyboard; sourceTree = "<group>"; };
+		23A5C998239578EA00453DA2 /* ReverseControler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseControler.h; sourceTree = "<group>"; };
+		23A5C9992395790B00453DA2 /* ReverseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseController.m; sourceTree = "<group>"; };
 		23AA39922372328A0002B9DC /* Calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
 		23AA3994237237DB0002B9DC /* Pythagorean.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagorean.storyboard; sourceTree = "<group>"; };
 		23B1FD082370E7D00013441C /* UIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,8 +117,10 @@
 				23D1A9362382FB6A00D0C4FA /* CalcController2.m */,
 				238DCF44237B705B0017B640 /* PythController.h */,
 				238DCF42237B703B0017B640 /* PythController.m */,
-				234964BD237CB7C70085AFB3 /* Rectangle.m */,
 				23C0EF0D237CBEEA0093DBA4 /* Rectangle.h */,
+				234964BD237CB7C70085AFB3 /* Rectangle.m */,
+				23A5C998239578EA00453DA2 /* ReverseControler.h */,
+				23A5C9992395790B00453DA2 /* ReverseController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -126,6 +133,7 @@
 				23AA39922372328A0002B9DC /* Calculator.storyboard */,
 				23AA3994237237DB0002B9DC /* Pythagorean.storyboard */,
 				234964C0237CBB0A0085AFB3 /* Rectangle.storyboard */,
+				23A5C9962395771200453DA2 /* Reverse.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 				23B1FD182370E7D00013441C /* Assets.xcassets in Resources */,
 				23AA39932372328A0002B9DC /* Calculator.storyboard in Resources */,
 				23AA3995237237DB0002B9DC /* Pythagorean.storyboard in Resources */,
+				23A5C9972395771200453DA2 /* Reverse.storyboard in Resources */,
 				234964C1237CBB0A0085AFB3 /* Rectangle.storyboard in Resources */,
 				23B1FD162370E7D00013441C /* Main.storyboard in Resources */,
 			);
@@ -218,6 +227,7 @@
 				23D1A9372382FB6A00D0C4FA /* CalcController2.m in Sources */,
 				23B1FD132370E7D00013441C /* ViewController.m in Sources */,
 				234964BE237CB7C70085AFB3 /* Rectangle.m in Sources */,
+				23A5C99A2395790B00453DA2 /* ReverseController.m in Sources */,
 				23B1FD0D2370E7D00013441C /* AppDelegate.m in Sources */,
 				23B1FD1E2370E7D00013441C /* main.m in Sources */,
 				23B1FD102370E7D00013441C /* SceneDelegate.m in Sources */,
