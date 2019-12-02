@@ -6,4 +6,11 @@
 //  Copyright © 2019 Vij, Jagroop. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "ReverseController.h"
+
+@implementation ReverseController
+@synthesize Input;
+
+
+
+@end

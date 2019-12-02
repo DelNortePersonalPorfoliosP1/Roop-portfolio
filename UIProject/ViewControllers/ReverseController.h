@@ -6,8 +6,11 @@
 //  Copyright © 2019 Vij, Jagroop. All rights reserved.
 //
 
-#ifndef ReverseController_h
-#define ReverseController_h
+#import <UIKit/UIKit.h>
 
+@interface ReverseController : UIViewController
 
-#endif /* ReverseController_h */
+@property (weak, nonatomic) IBOutlet UITextField *Input;
+@property (weak, nonatomic) IBOutlet UITextField *Output;
+
+@end
