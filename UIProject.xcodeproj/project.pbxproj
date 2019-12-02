@@ -35,8 +35,8 @@
 		238DCF59237B71FE0017B640 /* histogram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = histogram.c; sourceTree = "<group>"; };
 		238DCF5A237B721C0017B640 /* jumpers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jumpers.c; sourceTree = "<group>"; };
 		23A5C9962395771200453DA2 /* Reverse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reverse.storyboard; sourceTree = "<group>"; };
-		23A5C998239578EA00453DA2 /* ReverseControler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseControler.h; sourceTree = "<group>"; };
 		23A5C9992395790B00453DA2 /* ReverseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseController.m; sourceTree = "<group>"; };
+		23A5C99B23957B5B00453DA2 /* ReverseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseController.h; sourceTree = "<group>"; };
 		23AA39922372328A0002B9DC /* Calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
 		23AA3994237237DB0002B9DC /* Pythagorean.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagorean.storyboard; sourceTree = "<group>"; };
 		23B1FD082370E7D00013441C /* UIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +119,7 @@
 				238DCF42237B703B0017B640 /* PythController.m */,
 				23C0EF0D237CBEEA0093DBA4 /* Rectangle.h */,
 				234964BD237CB7C70085AFB3 /* Rectangle.m */,
-				23A5C998239578EA00453DA2 /* ReverseControler.h */,
+				23A5C99B23957B5B00453DA2 /* ReverseController.h */,
 				23A5C9992395790B00453DA2 /* ReverseController.m */,
 			);
 			path = ViewControllers;
