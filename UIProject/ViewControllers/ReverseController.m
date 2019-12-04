@@ -11,6 +11,9 @@
 @implementation ReverseController
 @synthesize Input;
 
-
+- (IBAction)reverse:(id)sender {
+    const char *cInput = [Input.text UTF8String];
+    long inputLength = Input.text.length;
+}
 
 @end

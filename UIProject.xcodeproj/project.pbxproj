@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2321D05023981E5B003A6690 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2321D04F23981E5B003A6690 /* reverse.c */; };
 		234964B9237CAD390085AFB3 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 234964B8237CAD390085AFB3 /* calc.c */; };
 		234964BE237CB7C70085AFB3 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 234964BD237CB7C70085AFB3 /* Rectangle.m */; };
 		234964C1237CBB0A0085AFB3 /* Rectangle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234964C0237CBB0A0085AFB3 /* Rectangle.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2321D04F23981E5B003A6690 /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
 		234964B8237CAD390085AFB3 /* calc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = calc.c; sourceTree = "<group>"; };
 		234964BA237CAEE10085AFB3 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
 		234964BD237CB7C70085AFB3 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				234964B8237CAD390085AFB3 /* calc.c */,
 				238DCF59237B71FE0017B640 /* histogram.c */,
 				238DCF5A237B721C0017B640 /* jumpers.c */,
+				2321D04F23981E5B003A6690 /* reverse.c */,
 			);
 			path = control;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				23B1FD0D2370E7D00013441C /* AppDelegate.m in Sources */,
 				23B1FD1E2370E7D00013441C /* main.m in Sources */,
 				23B1FD102370E7D00013441C /* SceneDelegate.m in Sources */,
+				2321D05023981E5B003A6690 /* reverse.c in Sources */,
 				238DCF43237B703B0017B640 /* PythController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

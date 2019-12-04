@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "control.h"
 
 @interface ReverseController : UIViewController
 

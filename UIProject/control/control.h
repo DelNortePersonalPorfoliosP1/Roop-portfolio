@@ -49,4 +49,10 @@ int zeroTest(double value);
 double calculateIt(double arg1, int mathOp, double arg2);
 double BigSide(double side1, double side2);
 
+// revx4 prototypes
+char *revXArray(char* input, long length);
+char *revXRecurse(char* input, long length);
+char *revXPointer(char* input, long length);
+char *paliEval(char* input, long length);
+
 #endif /* portfolio_h */
