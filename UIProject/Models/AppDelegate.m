@@ -37,5 +37,9 @@
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
 
+(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.window endEditing:YES];
+}
 
 @end
