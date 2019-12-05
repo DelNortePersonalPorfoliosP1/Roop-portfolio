@@ -23,9 +23,11 @@
 - (IBAction)calculate:(id)sender {
     double sideAcalc = (sideA.text.doubleValue + sideB.text.doubleValue)*2;
     [sideC setText:[NSString stringWithFormat:@"%lf", sideAcalc]];
+    [self.view endEditing:YES];
 }
 - (IBAction)calculate2:(id)sender {
     double sideBcalc = sideA.text.doubleValue * sideB.text.doubleValue;
     [sideD setText:[NSString stringWithFormat:@"%lf", sideBcalc]];
+    [self.view endEditing:YES];
 }
 @end

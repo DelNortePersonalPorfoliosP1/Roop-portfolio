@@ -22,5 +22,6 @@
 - (IBAction)calculate:(id)sender {
     double side3calc = BigSide(side1.text.doubleValue, side2.text.doubleValue);
     [side3 setText:[NSString stringWithFormat:@"%lf", side3calc]];
+    [self.view endEditing:YES];
 }
 @end
