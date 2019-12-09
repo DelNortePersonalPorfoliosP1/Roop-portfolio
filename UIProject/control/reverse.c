@@ -8,6 +8,7 @@
 
 #include "reverse.h"
 #include <string.h>
+#include <stdlib.h>
 
 
 // PUT ME IN YOUR .C FILE, BUSINESS LOGIC
@@ -62,6 +63,24 @@ char *paliEval(const char* input, long length) {
     char *reverse = revXArray(input, length);
     // compare for equality, return message
     return  isPali ; noPali;
+}
+
+void reverse(char *a)
+{
+   int i, j, size;
+   char tmp;
+
+  size = strlen(a);
+  j=size-1;
+
+  for(i=0; i<size/2; i++)
+  {
+      tmp=a[i];
+      a[i]=a[j];
+      a[j]=tmp;
+      j--;
+  }
+
 }
 
 
