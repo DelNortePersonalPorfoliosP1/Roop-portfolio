@@ -64,12 +64,15 @@ char *paliEval(const char* input, long length) {
     // compare for equality, return message
     return  isPali ; noPali;
 }
+#include <stdlib.h>
 
 void reverse(char *a)
 {
    int i, j, size;
    char tmp;
 
+   if(!a)
+       return;
   size = strlen(a);
   j=size-1;
 
@@ -84,6 +87,32 @@ void reverse(char *a)
 }
 
 
+void reverseAll(char *a)
+{
+   int size;
+
+   reverse(a);
+
+   size = strlen(a);
+   char *new = (char*)malloc(size+1);
+
+  char *token = strtok(a, " ");
+  reverse(token);
+  strcpy(new, token);
+  //printf("%s ", new);
+  while(token != NULL)
+  {
+      token = strtok(NULL, " ");
+      reverse(token);
+      if(token){
+        strcat(new, " ");
+        strcat(new, token);
+      }
+  }
+
+  strcpy(a, new);
+  free(new);
+}
 
 /* Old Code
  
