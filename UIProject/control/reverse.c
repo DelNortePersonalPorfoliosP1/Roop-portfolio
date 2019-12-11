@@ -64,80 +64,19 @@ char *paliEval(const char* input, long length) {
     // compare for equality, return message
     return  isPali ; noPali;
 }
-#include <stdlib.h>
 
-void reverse(char *a)
-{
-   int i, j, size;
-   char tmp;
-
-   if(!a)
-       return;
-  size = strlen(a);
-  j=size-1;
-
-  for(i=0; i<size/2; i++)
+char *strrev(char *input){
+  if (!input || ! *input)
+    return input;
+  int i = strlen(input) - 1, j = 0;
+  char ch;
+  while (i > j)
   {
-      tmp=a[i];
-      a[i]=a[j];
-      a[j]=tmp;
-      j--;
+    ch = input[i];
+    input[i] = input[j];
+    input[j] = ch;
+    i--;
+    j++;
   }
-
+  return input;
 }
-
-
-void reverseAll(char *a)
-{
-   int size;
-
-   reverse(a);
-
-   size = strlen(a);
-   char *new = (char*)malloc(size+1);
-
-  char *token = strtok(a, " ");
-  reverse(token);
-  strcpy(new, token);
-  //printf("%s ", new);
-  while(token != NULL)
-  {
-      token = strtok(NULL, " ");
-      reverse(token);
-      if(token){
-        strcat(new, " ");
-        strcat(new, token);
-      }
-  }
-
-  strcpy(a, new);
-  free(new);
-}
-
-/* Old Code
- 
- void print_reverse(char *s);
-size_t len = strlen(s);
-
-int main()
-{
-       {
-       
-
-       char *t = s + len-1;
-       while(t >= s) {
-       printf("%c", *t);
-        t = t-1;
-       }
-       puts("");
-         }
-{
-char charinput[100];
-printf("Enter character you want to reverse:");
-fgets(charinput, 100, stdin);
-print_reverse(charinput);
-getchar();
-}
-    
-}
- */
