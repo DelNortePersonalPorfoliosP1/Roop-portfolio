@@ -6,66 +6,12 @@
 //  Copyright © 2019 Vij, Jagroop. All rights reserved.
 //
 
+#include <stdio.h>
 #include "reverse.h"
 #include <string.h>
 #include <stdlib.h>
 
-
-// PUT ME IN YOUR .C FILE, BUSINESS LOGIC
-// persistent variables used after calling functions
-char rev4XBuffer[1000];
-char *isPali = "Is Palindrome";
-char *noPali = "Not a Palindrome";
-// array reverse function
-char *revXArray(const char* input, long length) {
-    // copy string to buffer, don't disrupt original
-    strncpy(rev4XBuffer, input, length);
-    // reverse char's in by array reverence
-    return rev4XBuffer;
-}
-// recursion helper, recursive loop function
-void recurse(char* input, long begin, long end) {
-    // recursion terminates
-    if (begin >= end)
-        return;
-    // recursion continues
-    recurse(input, ++begin, --end);
-}
-// recursion reverse function
-char *revXRecurse(const char* input, long length){
-    // copy string to buffer, don't disrupt original
-    strncpy(rev4XBuffer, input, length);
-    // recursion control variables
-    long begin = 0;
-    long end = length-1;
-    // call recursion function
-    recurse(rev4XBuffer, begin, end);
-    return rev4XBuffer;
-}
-char *revXPointer(const char* input, long length) {
-    // copy string to buffer, don't disrupt original
-    strncpy(rev4XBuffer, input, length);
-    // initialize pointer control variables
-    char *begin = rev4XBuffer;
-    char *end = rev4XBuffer;
-    end += length - 1;  // pointer math is simple on char as it corresponds to memory
-    // reverse char's in buffer by pointer referece
-    while ( begin < end ) {
-        // pointer address increment/decrement
-        begin++;
-        end--;
-    }
-    return rev4XBuffer;
-}
-// pali evaluation
-char *paliEval(const char* input, long length) {
-    // call function above to reverse string
-    char *reverse = revXArray(input, length);
-    // compare for equality, return message
-    return  isPali ; noPali;
-}
-
-char *strrev(char *input){
+char *areverse(char *input){
   if (!input || ! *input)
     return input;
   int i = strlen(input) - 1, j = 0;
@@ -78,5 +24,38 @@ char *strrev(char *input){
     i--;
     j++;
   }
+  return input;
+}
+char *recurse(char *input)
+{
+   char *p1, *p2;
+   if (! input || ! *input)
+      return input;
+   for (p1 = input, p2 = input + strlen(input) - 1; p2 > p1; ++p1, --p2)
+   {
+      *p1 ^= *p2;
+      *p2 ^= *p1;
+      *p1 ^= *p2;
+   }
+   return input;
+}
+char *pointerrev(char *input)
+{
+char *begin = input;
+char *end = input;
+end += strlen(input) - 1;
+  while ( begin < end ) {char c = *begin; *begin = *end; *end = c;begin++; end--;}
+  return input;
+}
+char *palendrome(char *input, char *reverse)
+{
+int x = strcmp(input, reverse);
+  if (x == 0) {
+    input = "yes";
+  }
+  else{
+    input = "no";
+  }
+   
   return input;
 }

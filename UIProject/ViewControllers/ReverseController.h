@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "control.h"
+#import "ReverseController.h"
+#include "control.h"
 
 @interface ReverseController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UITextField *Input;
-@property (weak, nonatomic) IBOutlet UITextField *Output;
-
-@end
+@property (weak, nonatomic) IBOutlet UITextField *input;
+@property (strong, nonatomic) IBOutlet UILabel *box1;
+@property (strong, nonatomic) IBOutlet UILabel *box2;
+@property (strong, nonatomic) IBOutlet UILabel *box3;
+@property (strong, nonatomic) IBOutlet UILabel *box4;

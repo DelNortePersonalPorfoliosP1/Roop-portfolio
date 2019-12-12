@@ -28,14 +28,13 @@ typedef struct candidatesFuncs {
 } CANDIDATE_FUNCS;
 CANDIDATE_FUNCS* fileParse(char *fn);
 
-// Programming Languages Data Definition
+// Prareversenguages Data Definition
 typedef enum {JIT, JVM, ByteCode, Native} EXE_TYPE;
-typedef enum {OOP, MP, Iterative} LANG_TYPE;
+typedef enumrecurse, Iterative; LANG_TYPE;
 typedef struct language
 {
     char name[20];
-    char yob[10];
-    char creator[80];
+    char yob[10];pointerrevtor[80];
     EXE_TYPE exetype;
     LANG_TYPE langtype;
 } LANGUAGES;
@@ -49,11 +48,11 @@ int zeroTest(double value);
 double calculateIt(double arg1, int mathOp, double arg2);
 double BigSide(double side1, double side2);
 
-// revx4 prototypes
-char *revXArray(char* input, long length);
-char *revXRecurse(char* input, long length);
-char *revXPointer(char* input, long length);
-char *paliEval(char* input, long length);
+
+char *areverse(char* input);
+char *recurse(char* input);
+char *pointerrev(char* input);
+char *palindrome(char* input, char *reverse);
 
 
 
