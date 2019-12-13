@@ -105,6 +105,13 @@
                         <color key="backgroundColor" red="1" green="0.2958153096281454" blue="0.72712851373438769" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EeI-bj-97u"/>
                     </view>
+                    <connections>
+                        <outlet property="box1" destination="v4k-br-jON" id="gtY-GX-sk9"/>
+                        <outlet property="box2" destination="EHN-kV-ebC" id="3LD-Uv-q6h"/>
+                        <outlet property="box3" destination="s6b-cq-Ftg" id="jqc-7O-X9m"/>
+                        <outlet property="box4" destination="dsJ-Pj-OMS" id="TYY-PC-SOa"/>
+                        <outlet property="input" destination="ddY-V1-Fh5" id="nUz-Tr-6Kg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eww-QT-htp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

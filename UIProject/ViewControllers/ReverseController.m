@@ -20,6 +20,7 @@ const char *cInput = [input.text UTF8String];
 long inputLength = input.text.length;
 const char *cInput2 = cInput;
 const char *cInput3 = cInput;
+
    
 box1.text = [NSString stringWithFormat:@"%s", areverse(cInput)];
 box2.text = [NSString stringWithFormat:@"%s", recurse(cInput2)];
