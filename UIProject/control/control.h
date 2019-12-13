@@ -30,11 +30,12 @@ CANDIDATE_FUNCS* fileParse(char *fn);
 
 // Prareversenguages Data Definition
 typedef enum {JIT, JVM, ByteCode, Native} EXE_TYPE;
-typedef enumrecurse, Iterative; LANG_TYPE;
+typedef enum {OOP, MP, Iterative} LANG_TYPE;
 typedef struct language
 {
     char name[20];
-    char yob[10];pointerrevtor[80];
+    char yob[10];
+    char creator[80];
     EXE_TYPE exetype;
     LANG_TYPE langtype;
 } LANGUAGES;

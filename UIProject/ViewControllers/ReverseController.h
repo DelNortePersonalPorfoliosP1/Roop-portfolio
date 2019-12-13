@@ -17,3 +17,4 @@
 @property (strong, nonatomic) IBOutlet UILabel *box2;
 @property (strong, nonatomic) IBOutlet UILabel *box3;
 @property (strong, nonatomic) IBOutlet UILabel *box4;
+@end
